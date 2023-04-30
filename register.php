@@ -26,36 +26,36 @@
 
       <form action="simpan_siswa.php" method="post">
         <input type="hidden" name="level" value="siswa">
-        <div class="input-group mb-3">
+        <div class="input-group mb-3 border rounded">
         <div class="input-group-append">
-            <div class="input-group-text">
+            <div class="input-group-text border-0">
               <span class="fas fa-user"></span>
             </div>
           </div>
-          <input type="text" class="form-control" name="nama" placeholder="Username">
+          <input class="border-0" style="width: 278px; height: 40px" type="text" class="form-control" name="nama" placeholder="Username">
         </div>
-        <div class="input-group mb-3">
+        <div class="input-group mb-3 border rounded">
         <div class="input-group-append">
-            <div class="input-group-text">
+            <div class="input-group-text border-0">
               <span class="fas fa-envelope"></span>
             </div>
           </div>
-          <input type="email" class="form-control" name="email" placeholder="Email">
+          <input class="border-0" style="width: 278px; height: 40px" type="email" class="form-control" name="email" placeholder="Email">
         </div>
-        <div class="input-group mb-3">
+        <div class="input-group mb-3 border rounded">
         <div class="input-group-append">
-            <div class="input-group-text">
+            <div class="input-group-text border-0">
               <span class="fas fa-lock"></span>
             </div>
           </div>
-          <input type="password" class="form-control" name="password" placeholder="Password">
+          <input class="border-0" style="width: 278px; height: 40px" type="password" class="form-control" name="password" placeholder="Password">
         </div>
         <div class="row">
-        <div class="input-group mb-3 col-md-6">
+        <div class="input-group mb-3 col-6">
           <input type="text" class="form-control" name="tlp" placeholder="No Telepon">
           
         </div>
-        <div class="input-group mb-3 col-md-6">
+        <div class="input-group mb-3 col-6">
           <input type="text" class="form-control" name="nis" placeholder="Nis">
    
         </div>
@@ -74,10 +74,8 @@
           <!-- /.col -->
         </div>
       </form>
-
-
-      <a href="index.php" class="text-center text-dark">Have an Account ?<b style="color:#48AA33">Login</b></a>
     </div>
+    <a href="index.php" class="text-center text-dark ">Have an Account ?<b style="color:#48AA33">Login</b></a>
     <!-- /.form-box -->
   </div><!-- /.card -->
 </div>

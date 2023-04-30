@@ -21,25 +21,25 @@
   </div>
   <!-- /.login-logo -->
   <div class="card">
-    <div class="card-body login-card-body">
+    <div class="card-body login-card-body border rounded">
       <p class="login-box-msg">Please fill in your Email and Password</p>
 
       <form action="login_verified.php" method="post">
-        <div class="input-group mb-3">
+        <div class="input-group mb-3 border rounded">
         <div class="input-group-append">
-            <div class="input-group-text">
+            <div class="input-group-text border-0">
               <span class="fas fa-envelope"></span>
             </div>
           </div>
-          <input type="email" class="form-control" name="email" placeholder="Email">
+          <input class="border-0" style="width: 276px; height: 40px" type="email" class="form-control" name="email" placeholder="Email">
         </div>
-        <div class="input-group mb-4">
+        <div class="input-group mb-4 border rounded">
         <div class="input-group-append">
-            <div class="input-group-text">
+            <div class="input-group-text border-0">
               <span class="fas fa-lock"></span>
             </div>
           </div>
-          <input type="password" class="form-control" name="password" placeholder="Password">
+          <input class="border-0" style="width: 278px; height: 40px" type="password" class="form-control" name="password" placeholder="Password">
         </div>
         <div class="row">
           <!-- /.col -->
